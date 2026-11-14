@@ -1,6 +1,6 @@
 # Awesome-Document-File-Previewer
 
-# Top Document & File Previewer Ecosystem
+## Top Document & File Previewer Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Browser-Based Rendering, Multi-Format Viewing & Embedded SDKs*  
