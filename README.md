@@ -15,23 +15,28 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global document management and viewing SDK market is estimated at **$9.6B to $11.8B** (with the dedicated PDF/embedded viewing SDK segment accounting for ~$3.8B), expanding at a ~11–15% CAGR toward nearly $30B by the 2030s. The sector is **moderately to highly fragmented** rather than winner-take-all, divided between mega-cap cloud storage platforms (Microsoft, Google), specialized cross-platform SDK leaders (Nutrient, Apryse, Foxit), and a diverse long tail of developer APIs and open-source rendering libraries tailored to specific compliance, security, and platform environments.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[PSPDFKit (Nutrient)](https://nutrient.io/)** | Enterprise document SDK for viewing, annotation, and editing across web, mobile, and desktop. Positioned as the premium commercial option for document-heavy products. | Quote-only (enterprise contract; historically five-figure annual minimums) | No free tier; trial via sales |
-| **[Accusoft PrizmDoc](https://www.accusoft.com/)** | Document viewing and conversion SDK with server-side rendering. Supports PDF, Office, and CAD formats. | Quote-only (enterprise contract) | No free tier; demo via sales |
-| **[Foxit PDF Web SDK](https://www.foxit.com/)** | Browser-based PDF viewer SDK from Foxit. Leverages Foxit's rendering engine for high-fidelity display and annotation. | Quote-only (per-application or per-user licensing) | Free trial available |
-| **[Box View API](https://box.com/)** | Document conversion and viewing API that transforms files into HTML5 for browser display. | Quote-only (usage-based) | No free tier; demo via Box |
-| **[Google Drive Viewer](https://drive.google.com/)** | Built-in viewer for files stored in Google Drive. Supports PDF, Office, images, and video without installation. | Free with Google account (15 GB shared storage) | **Free**: viewing for personal Google accounts |
-| **[Microsoft Office Online Viewer](https://view.officeapps.live.com/)** | Free web-based viewer for Office documents via a simple URL parameter. No authentication required for public files. | **Free** | **Free**: public document viewing only |
-| **[Filestack Document Viewer](https://www.filestack.com/)** | File handling platform with document preview capabilities as part of a broader upload/transform/deliver pipeline. | From **~$69/month** (Capterra listing) | Free tier available with limits |
-| **[Cloudinary Document Viewer](https://cloudinary.com/)** | Media management platform with document preview as a secondary capability. **Credit-based pricing can become expensive if used primarily for storage** . | From **~$99/month** (Capterra listing) | Free tier available with limited transformations |
+| Product | Company Size (Valuation / Revenue) | Starting Price | Free Tier / Trial Limits | Description |
+|---------|-----------------------------------|----------------|--------------------------|-------------|
+| **[Microsoft Office Online Viewer](https://view.officeapps.live.com/)** | **~$3.88T Market Cap** (~$245B Ann. Revenue) | **Free** (or from **$1.99/mo** for Microsoft 365 Basic / $7.00/user/mo Business) | **Free forever**: Unlimited viewing for publicly accessible Office files via web URL (5 GB cloud storage on free Microsoft accounts) | Free web-based viewer for Office documents via a simple URL parameter. No authentication required for public files. |
+| **[Google Drive Viewer](https://drive.google.com/)** | **~$3.50T Market Cap** (~$350B Ann. Revenue) | **Free** (or from **$1.99/mo** for 100 GB via Google One / $7.00/user/mo Workspace) | **Free forever**: Unlimited viewing; includes **15 GB** shared cloud storage per Google account | Built-in viewer for files stored in Google Drive. Supports PDF, Office, images, and video without installation. |
+| **[Box View API](https://box.com/)** | **~$6.0B Market Cap** (~$1.18B Ann. Revenue) | From **$15/user/month** (Business plan, min. 3 users; ~$5/user/mo Starter) | **Free developer sandbox**: Non-production testing and app prototyping; or 14-day free business trial | Document conversion and viewing API that transforms files into HTML5 for browser display. |
+| **[Cloudinary Document Viewer](https://cloudinary.com/)** | **~$2.0B Valuation** (~$100M+ ARR) | From **$89/month** (billed annually, or $99/mo monthly for Plus Plan) | **Free forever**: **25 credits/month** (~25 GB storage or bandwidth, or 25,000 transformations), max 10 MB image / 100 MB video limit | Media management platform with document preview as a secondary capability. Credit-based pricing can become expensive if used primarily for storage. |
+| **[Foxit PDF Web SDK](https://www.foxit.com/)** | **~$840M Market Cap** (~$160M Ann. Revenue) | From **~$3,000/year** (custom annual quote based on platform and scale) | **30-day free trial**: Fully functional developer trial across web and mobile platforms | Browser-based PDF viewer SDK from Foxit. Leverages Foxit's rendering engine for high-fidelity display and annotation. |
+| **[PSPDFKit (Nutrient)](https://nutrient.io/)** | **~$300M+ Est. Valuation** (€100M Insight Partners funding; ~$50M+ ARR) | From **~$10,000/year** (~$800–$1,200/mo billed annually for Web SDK; APIs from $75/mo) | **30-day free trial**: Full access to all SDK features across Web, Mobile, and Server | Enterprise document SDK for viewing, annotation, and editing across web, mobile, and desktop. Positioned as the premium commercial option for document-heavy products. |
+| **[Accusoft PrizmDoc](https://www.accusoft.com/)** | **~$35M Ann. Revenue** (Acquired by Apryse in 2025) | From **$7,700/year** (PrizmDoc Viewer 1-server, 4-vCPU core license) | **30-day free trial**: Self-hosted evaluation server license key and cloud transaction testing | Document viewing and conversion SDK with server-side rendering. Supports PDF, Office, and CAD formats. |
+| **[Filestack Document Viewer](https://www.filestack.com/)** | **~$2M–$5M Ann. Revenue** (Acquired by Idera) | From **$69/month** (Start Plan, or ~$49/mo billed annually) | **Free forever**: **500 uploads/month**, **1 GB bandwidth**, **1 GB storage**, 1,000 transformations, 20 MB max file size | File handling platform with document preview capabilities as part of a broader upload/transform/deliver pipeline. |
 
 ## Open-Source GitHub Projects
 
