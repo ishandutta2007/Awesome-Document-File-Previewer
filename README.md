@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-File-Previewer?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-File-Previewer?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Document-File-Previewer?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -68,9 +68,9 @@ The sector demonstrates **moderate-to-high fragmentation** rather than a winner-
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source document previewers, web viewers, and rendering engines are sorted below by **GitHub Star Count (descending)**:
+All open-source document previewers, web viewers, and rendering engines are sorted below by **GitHub Stars_Count (descending)**:
 
-| Project | Stars | License | Primary Tech Stack | Description |
+| Project | GitHub_Stars | License | Primary Tech Stack | Description |
 |:---|:---|:---|:---|:---|
 | **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | [![Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers) | GPL-3.0 | Java / Spring Boot / Docker | **Robust, self-hosted 100% local PDF manipulation & viewing suite.** Full web UI for viewing, converting, OCR, annotating, splitting, and securing PDFs. Fully offline with zero data leakage. |
 | **[PDF.js](https://github.com/mozilla/pdf.js)** | [![Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers) | Apache-2.0 | JavaScript / HTML5 Canvas | **Mozilla's industry-standard web standards PDF rendering engine.** Renders PDF directly onto HTML5 Canvas. The foundational renderer for Firefox, Chrome extensions, and hundreds of web SDKs worldwide. |
@@ -121,7 +121,7 @@ Contributions are warmly welcomed! Help expand and refine this ecosystem catalog
 1. 🍴 **Fork** the repository.
 2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-previewer`).
 3. 📝 Add your tool in the corresponding section (SaaS or Open-Source) adhering to the tabular format and sorting criteria.
-4. 🔗 Ensure all links and star badges link directly to the correct repository / stargazers page.
+4. 🔗 Ensure all links and Stars_Badges link directly to the correct repository / stargazers page.
 5. 🚀 Submit a **Pull Request** with a concise description of the library and its license.
 
 ---
