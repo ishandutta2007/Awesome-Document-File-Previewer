@@ -68,7 +68,7 @@ The sector demonstrates **moderate-to-high fragmentation** rather than a winner-
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source document previewers, web viewers, and rendering engines are sorted below by **GitHub Stars_Count (descending)**:
+All open-source document previewers, web viewers, and rendering engines are sorted below by **GitHub_Stars_Count (descending)**:
 
 | Project | GitHub_Stars | License | Primary Tech Stack | Description |
 |:---|:---|:---|:---|:---|
