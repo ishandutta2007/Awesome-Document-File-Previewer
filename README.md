@@ -1,34 +1,60 @@
-# Awesome-Document-File-Previewer
+# 📄 Awesome Document & File Previewer 🚀
 
-## Top Document & File Previewer Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Document & File Previewer Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Browser-Based Rendering, Multi-Format Viewing & Embedded SDKs*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Document-File-Previewer?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Document-File-Previewer?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Document-File-Previewer/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Document & File Previewers**. These tools render PDFs, Office documents, images, and media directly in the browser—eliminating the need for users to download files or install native applications. The category spans embeddable commercial SDKs for product teams and self-hosted rendering engines for organizations seeking full control.
+---
 
-**Examples** include PSPDFKit (Nutrient), Accusoft PrizmDoc, Foxit PDF Web SDK, PDF.js, Apache PDFBox, and open-source alternatives like Open File Viewer and Papyrus (the category leaders).
+## 🌟 Top Document & File Previewer Ecosystem
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted document rendering, open-source PDF engines, and community-driven file viewers—ideal for organizations seeking data sovereignty and avoiding per-document or per-seat SDK licensing. The open-source landscape is genuinely strong at the **rendering engine** layer (PDF.js, PDFBox, MuPDF) but thinner at the **turnkey viewer SDK** layer. **Open File Viewer** is the most ambitious unified viewer , **Papyrus** provides a modular PDF/EPUB SDK for React and React Native , and **docMentis udoc-viewer** offers WASM-based Office rendering without server round-trips .
+> 🎯 **A curated directory of browser-based document previewers, multi-format file viewers, and embeddable rendering SDKs.**  
+> *Covering self-hosted open-source libraries, client-side WebAssembly engines, and enterprise SaaS solutions.*  
+> 🕒 **Last updated: March 2026**
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository provides an authoritative guide to **Document & File Previewers** for modern web, desktop, and mobile applications. These solutions render PDFs, Microsoft Office documents (Word, Excel, PowerPoint), CAD drawings, EPUBs, images, audio, and video directly within browser contexts—completely eliminating friction from mandatory downloads or local software installations.
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+Whether you are looking for turnkey commercial SDKs, zero-server-upload client-side engines (WASM/Canvas), or robust self-hosted document servers, this catalog indexes the premier tools available today.
 
-## Sector Overview & Market Dynamics
+---
 
-The global document management and viewing SDK market is estimated at **$9.6B to $11.8B** (with the dedicated PDF/embedded viewing SDK segment accounting for ~$3.8B), expanding at a ~11–15% CAGR toward nearly $30B by the 2030s. The sector is **moderately to highly fragmented** rather than winner-take-all, divided between mega-cap cloud storage platforms (Microsoft, Google), specialized cross-platform SDK leaders (Nutrient, Apryse, Foxit), and a diverse long tail of developer APIs and open-source rendering libraries tailored to specific compliance, security, and platform environments.
+## 📑 Table of Contents
 
-## SaaS/Hosted Platforms
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Commercial Platforms](#️-saas--hosted-commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Guidelines: How to Choose](#️-architectural-guidelines-how-to-choose)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer & Licensing Guide](#️-disclaimer--licensing-guide)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global document management and viewing SDK market is currently valued between **$9.6B to $11.8B** (with the specialized PDF and embedded document viewing developer SDK subsector capturing ~$3.8B), expanding at a compound annual growth rate (**CAGR of ~11–15%**) toward nearly $30B by the 2030s.
+
+The sector demonstrates **moderate-to-high fragmentation** rather than a winner-take-all monopoly:
+- **Cloud & Productivity Hyperscalers** (Microsoft, Google, Box) dominate mass file storage and generic public file viewing, but rarely provide customized white-label UI controls or fine-grained in-browser canvas event hooks.
+- **Dedicated Commercial SDK Vendors** (Nutrient/PSPDFKit, Apryse, Foxit, Accusoft) lead the high-end enterprise segment with turnkey annotation, digital signature workflows, form-filling, redaction, and strict compliance certifications (HIPAA, SOC 2).
+- **Open-Source & Developer-First Libraries** (PDF.js, Stirling-PDF, kkFileView, Viewer.js, docx-preview) form a thriving, decoupled ecosystem providing specialized rendering blocks for teams prioritizing self-hosted control, zero SaaS per-seat costs, and strict data sovereignty.
+
+---
+
+## ☁️ SaaS & Hosted Commercial Platforms
 
 | Product | Company Size (Valuation / Revenue) | Starting Price | Free Tier / Trial Limits | Description |
-|---------|-----------------------------------|----------------|--------------------------|-------------|
+|:---|:---|:---|:---|:---|
 | **[Microsoft Office Online Viewer](https://view.officeapps.live.com/)** | **~$3.88T Market Cap** (~$245B Ann. Revenue) | **Free** (or from **$1.99/mo** for Microsoft 365 Basic / $7.00/user/mo Business) | **Free forever**: Unlimited viewing for publicly accessible Office files via web URL (5 GB cloud storage on free Microsoft accounts) | Free web-based viewer for Office documents via a simple URL parameter. No authentication required for public files. |
 | **[Google Drive Viewer](https://drive.google.com/)** | **~$3.50T Market Cap** (~$350B Ann. Revenue) | **Free** (or from **$1.99/mo** for 100 GB via Google One / $7.00/user/mo Workspace) | **Free forever**: Unlimited viewing; includes **15 GB** shared cloud storage per Google account | Built-in viewer for files stored in Google Drive. Supports PDF, Office, images, and video without installation. |
 | **[Box View API](https://box.com/)** | **~$6.0B Market Cap** (~$1.18B Ann. Revenue) | From **$15/user/month** (Business plan, min. 3 users; ~$5/user/mo Starter) | **Free developer sandbox**: Non-production testing and app prototyping; or 14-day free business trial | Document conversion and viewing API that transforms files into HTML5 for browser display. |
@@ -38,41 +64,91 @@ The global document management and viewing SDK market is estimated at **$9.6B to
 | **[Accusoft PrizmDoc](https://www.accusoft.com/)** | **~$35M Ann. Revenue** (Acquired by Apryse in 2025) | From **$7,700/year** (PrizmDoc Viewer 1-server, 4-vCPU core license) | **30-day free trial**: Self-hosted evaluation server license key and cloud transaction testing | Document viewing and conversion SDK with server-side rendering. Supports PDF, Office, and CAD formats. |
 | **[Filestack Document Viewer](https://www.filestack.com/)** | **~$2M–$5M Ann. Revenue** (Acquired by Idera) | From **$69/month** (Start Plan, or ~$49/mo billed annually) | **Free forever**: **500 uploads/month**, **1 GB bandwidth**, **1 GB storage**, 1,000 transformations, 20 MB max file size | File handling platform with document preview capabilities as part of a broader upload/transform/deliver pipeline. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Open File Viewer](https://github.com/xushanpei/open-file-viewer)** | [![Stars](https://img.shields.io/github/stars/xushanpei/open-file-viewer?style=social&color=white)](https://github.com/xushanpei/open-file-viewer/stargazers) | **The most ambitious open-source unified file viewer.** MIT licensed, framework-agnostic (Vanilla JS, React, Vue, Svelte). Built-in plugins for **PDF, Office (DOCX/XLSX/PPTX), OFD, EPUB, XPS, images, media, archives, email, CAD, GIS, 3D, and text**. Client-side rendering—files stay in the browser and are not uploaded. Drop-in `<OpenFileViewer>` component with toolbar, themes, and multi-file queues, plus a plugin-first core for custom renderers . **Best for teams wanting a single viewer for all common attachment formats without commercial SDK licensing.** |
-| **[Papyrus](https://github.com/solrachix/Papyrus)** | [![Stars](https://img.shields.io/github/stars/solrachix/Papyrus?style=social&color=white)](https://github.com/solrachix/Papyrus/stargazers) | **Modular open-source PDF/EPUB/TXT SDK for web and mobile.** Decoupled architecture: core state layer (Zustand), pluggable engines (**PDF.js on web, native on mobile**), and UI kits for React and React Native. Supports PDF, EPUB, TXT, CBZ, and CBR. Features event hooks for page/zoom/selection, background text search, themeable UI (light/dark/sepia/high-contrast), and Expo plugin for native builds . **Best for React/React Native teams needing a composable document SDK.** |
-| **[docMentis udoc-viewer](https://github.com/docMentis/docmentis-udoc-viewer)** | [![Stars](https://img.shields.io/github/stars/docMentis/docmentis-udoc-viewer?style=social&color=white)](https://github.com/docMentis/docmentis-udoc-viewer/stargazers) | **WASM-powered universal viewer for PDF, DOCX, PPTX, and images.** Built from scratch with a **custom Rust/WebAssembly rendering engine—not PDF.js**. **Client-side only** (no server round-trips). Framework-agnostic (React, Vue, Angular, Svelte, plain HTML). MIT-licensed wrapper with free WASM engine. Features zoom/navigation, full-text search with highlighting, dark mode, and customizable UI . **Note: active development has moved to a new repository (docMentis udoc); this repo hosts v0.7.20.** Best for teams wanting high-fidelity Office rendering without server infrastructure. |
+## 💻 Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+All open-source document previewers, web viewers, and rendering engines are sorted below by **GitHub Star Count (descending)**:
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[PDF.js](https://github.com/mozilla/pdf.js)** | [![Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers) | **Mozilla's PDF rendering engine—the foundation of most browser-based PDF viewing.** Renders PDF onto HTML5 Canvas. Supports annotations and AcroForms. **Apache 2.0 licensed.** Complex and worker-based, but battle-tested and used by Firefox, Papyrus, and countless other projects . **Best as a rendering engine to build upon, not a turnkey viewer.** |
-| **[Apache PDFBox](https://github.com/apache/pdfbox)** | [![Stars](https://img.shields.io/github/stars/apache/pdfbox?style=social&color=white)](https://github.com/apache/pdfbox/stargazers) | **Comprehensive Java PDF library for rendering, text extraction, and form manipulation.** Apache 2.0 licensed. Development started in 2002. Renders to Gray/RGB/ARGB. **Java-only and complex API** . Best for Java server-side rendering or PDF manipulation workflows. |
-| **[MuPDF](https://github.com/ArtifexSoftware/mupdf)** | [![Stars](https://img.shields.io/github/stars/ArtifexSoftware/mupdf?style=social&color=white)](https://github.com/ArtifexSoftware/mupdf/stargazers) | **Fast, comprehensive C rendering engine with WASM, Python, Java, and iOS/Android bindings.** Supports overprint, interactive features, and AcroForms. **AGPL v3 or commercial license from Artifex**—AGPL may be prohibitive for proprietary products . Best for performance-critical rendering where AGPL compliance is acceptable or commercial licensing is viable. |
-| **[Peekin](https://github.com/sumanmichael/peekin)** | [![Stars](https://img.shields.io/github/stars/sumanmichael/peekin?style=social&color=white)](https://github.com/sumanmichael/peekin/stargazers) | **Lightweight read-only web file browser for local folders.** Python/MIT. Previews images (swipeable gallery), video, audio, PDF, rendered Markdown, and source code with syntax highlighting. **Runs fully offline** with password protection when shared on a network. HTML/SVG files are downloaded, never rendered (security). **Not an embeddable viewer**—a standalone folder-sharing tool . Best for local development or personal file browsing. |
-
-**Frameworks for building custom systems**: Choose **Open File Viewer** for a unified drop-in viewer covering PDF, Office, media, and archives , **Papyrus** for a modular React/React Native SDK with PDF.js and native engines , or **docMentis udoc-viewer** for WASM-based Office rendering without server round-trips . For server-side PDF rendering in Java, **Apache PDFBox** provides the foundation. **None of these matches the annotation depth, forms support, or enterprise compliance certifications of PSPDFKit or PrizmDoc**—expect to build those layers yourself.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Document previewers render potentially sensitive files; **client-side rendering keeps files in the browser** (Open File Viewer, docMentis), while server-side rendering (PrizmDoc, PDFBox) requires secure transmission and temporary storage policies.
-- **Licensing is the critical differentiator in open-source rendering.** **PDF.js and PDFBox are Apache 2.0**—permissive for commercial use . **MuPDF is AGPL v3**—proprietary products must either open-source their entire application or purchase a commercial license from Artifex . **Open File Viewer is MIT** , **Papyrus is open-source** (check repository license), and **docMentis udoc-viewer is MIT-licensed wrapper with a free WASM engine** . **Commercial platforms are quote-only**—PSPDFKit, PrizmDoc, and Foxit do not publish list pricing. **Filestack and Cloudinary are file platforms with preview as a secondary feature**, not purpose-built viewers—Cloudinary's credit system can become expensive if used primarily for storage rather than transformation . Validate licensing compatibility and rendering fidelity against your actual document corpus before committing.
+| Project | Stars | License | Primary Tech Stack | Description |
+|:---|:---|:---|:---|:---|
+| **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | [![Stars](https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=social&color=white)](https://github.com/Stirling-Tools/Stirling-PDF/stargazers) | GPL-3.0 | Java / Spring Boot / Docker | **Robust, self-hosted 100% local PDF manipulation & viewing suite.** Full web UI for viewing, converting, OCR, annotating, splitting, and securing PDFs. Fully offline with zero data leakage. |
+| **[PDF.js](https://github.com/mozilla/pdf.js)** | [![Stars](https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white)](https://github.com/mozilla/pdf.js/stargazers) | Apache-2.0 | JavaScript / HTML5 Canvas | **Mozilla's industry-standard web standards PDF rendering engine.** Renders PDF directly onto HTML5 Canvas. The foundational renderer for Firefox, Chrome extensions, and hundreds of web SDKs worldwide. |
+| **[kkFileView](https://github.com/kekingcn/kkFileView)** | [![Stars](https://img.shields.io/github/stars/kekingcn/kkFileView?style=social&color=white)](https://github.com/kekingcn/kkFileView/stargazers) | Apache-2.0 | Java / Spring Boot / LibreOffice | **Universal open-source online document preview service.** Out-of-the-box previewing for DOC, DOCX, XLS, XLSX, PPT, PPTX, PDF, TXT, ZIP, RAR, 7z, MP4, MP3, and CAD drawings in the browser. |
+| **[react-pdf](https://github.com/wojtekmaj/react-pdf)** | [![Stars](https://img.shields.io/github/stars/wojtekmaj/react-pdf?style=social&color=white)](https://github.com/wojtekmaj/react-pdf/stargazers) | MIT | React / TypeScript / PDF.js | **Most popular modular React wrapper for PDF.js.** Enables effortless inline PDF page rendering in React apps with custom controls, pagination, zooming, virtual scrolling, and text selection layers. |
+| **[Viewer.js](https://github.com/fengyuanchen/viewerjs)** | [![Stars](https://img.shields.io/github/stars/fengyuanchen/viewerjs?style=social&color=white)](https://github.com/fengyuanchen/viewerjs/stargazers) | MIT | JavaScript (ES6) | **High-performance JavaScript image viewer.** Features modal & inline preview, zoom in/out, rotate, flip, touch gestures, keyboard shortcuts, fullscreen preview, and thumbnail carousels. |
+| **[Apache PDFBox](https://github.com/apache/pdfbox)** | [![Stars](https://img.shields.io/github/stars/apache/pdfbox?style=social&color=white)](https://github.com/apache/pdfbox/stargazers) | Apache-2.0 | Java | **Enterprise Java PDF library for rendering, extraction, and generation.** Features PDF-to-image rasterization, form filling, text extraction, and digital signing. Ideal for backend rendering pipelines. |
+| **[MuPDF](https://github.com/ArtifexSoftware/mupdf)** | [![Stars](https://img.shields.io/github/stars/ArtifexSoftware/mupdf?style=social&color=white)](https://github.com/ArtifexSoftware/mupdf/stargazers) | AGPL-3.0 / Commercial | C / WASM / Python / Java | **Ultra-fast, lightweight C rendering engine for PDF, XPS, and EPUB.** Exceptionally high fidelity with antialiased graphics, overprint rendering, AcroForms, and WebAssembly compilation bindings. |
+| **[docx-preview](https://github.com/VolodymyrBaydalka/docxjs)** | [![Stars](https://img.shields.io/github/stars/VolodymyrBaydalka/docxjs?style=social&color=white)](https://github.com/VolodymyrBaydalka/docxjs/stargazers) | Apache-2.0 | TypeScript / DOM | **Client-side Microsoft Word (.docx) renderer.** Parses docx binary structures directly in the browser and translates them into HTML DOM elements without any server conversion. |
+| **[Open File Viewer](https://github.com/xushanpei/open-file-viewer)** | [![Stars](https://img.shields.io/github/stars/xushanpei/open-file-viewer?style=social&color=white)](https://github.com/xushanpei/open-file-viewer/stargazers) | MIT | Vue / React / Vanilla JS | **Unified client-side multi-format file viewer.** Built-in pluggable support for PDF, DOCX, XLSX, PPTX, OFD, EPUB, XPS, images, audio, video, archives, email, CAD, and 3D files with zero server roundtrips. |
+| **[react-doc-viewer](https://github.com/cyntler/react-doc-viewer)** | [![Stars](https://img.shields.io/github/stars/cyntler/react-doc-viewer?style=social&color=white)](https://github.com/cyntler/react-doc-viewer/stargazers) | MIT | React / TypeScript | **Extensible React document viewing component.** Includes built-in driver renderers for PDF, CSV, XLSX, DOCX, PNG/JPEG, MP4, and text with a customizable navigation bar and theme support. |
+| **[docMentis udoc-viewer](https://github.com/docMentis/docmentis-udoc-viewer)** | [![Stars](https://img.shields.io/github/stars/docMentis/docmentis-udoc-viewer?style=social&color=white)](https://github.com/docMentis/docmentis-udoc-viewer/stargazers) | MIT / WASM Core | Rust / WebAssembly | **WASM-powered universal file viewer for PDF, DOCX, PPTX, and images.** Proprietary Rust-to-WASM rendering engine that executes completely in browser memory without external server dependency. |
+| **[Papyrus](https://github.com/solrachix/Papyrus)** | [![Stars](https://img.shields.io/github/stars/solrachix/Papyrus?style=social&color=white)](https://github.com/solrachix/Papyrus/stargazers) | MIT | React / React Native / Zustand | **Modular document preview SDK for web and mobile.** Decoupled architecture supporting PDF, EPUB, TXT, CBZ, and CBR with native acceleration on iOS/Android and PDF.js fallback on web. |
+| **[Peekin](https://github.com/sumanmichael/peekin)** | [![Stars](https://img.shields.io/github/stars/sumanmichael/peekin?style=social&color=white)](https://github.com/sumanmichael/peekin/stargazers) | MIT | Python / Flask | **Lightweight local read-only web file browser.** Renders galleries, video, audio, PDFs, and syntax-highlighted code files directly from local storage with optional network passcode security. |
 
 ---
 
-**Made for developers, product teams, and organizations building document viewing infrastructure.**  
-Let's make document and file previewing more open, embeddable, and cost-predictable.
+## 🏗️ Architectural Guidelines: How to Choose
+
+```mermaid
+flowchart TD
+    Start["What is your document preview requirement?"] --> NeedFormat{"What formats do you need to display?"}
+    
+    NeedFormat -->|"PDF only"| PDFChoice{"Deployment target?"}
+    PDFChoice -->|"Web / React"| R1["wojtekmaj/react-pdf or mozilla/pdf.js"]
+    PDFChoice -->|"Full UI & Conversion Suite"| R2["Stirling-PDF (Self-Hosted)"]
+    PDFChoice -->|"Enterprise Annotation & Signatures"| R3["Nutrient / PSPDFKit or Foxit Web SDK"]
+
+    NeedFormat -->|"Multi-Format: Office + PDF + Media"| ArchChoice{"Server-side or Client-side only?"}
+    ArchChoice -->|"Client-Side (Zero Server Upload)"| CS["Open File Viewer / docx-preview / docMentis"]
+    ArchChoice -->|"Self-Hosted Centralized Server"| SS["kkFileView (Spring Boot + LibreOffice)"]
+    ArchChoice -->|"Managed Cloud Conversion"| Cloud["Box View API / Cloudinary / Microsoft Online Viewer"]
+
+    NeedFormat -->|"High-Fidelity Native / WASM"| WASM["MuPDF (C/WASM) or docMentis udoc"]
+```
+
+1. **For Pure Client-Side Privacy (Zero Uploads):** Choose **[Open File Viewer](https://github.com/xushanpei/open-file-viewer)** or **[docx-preview](https://github.com/VolodymyrBaydalka/docxjs)**. Processing occurs directly inside the user's browser memory via WebAssembly/JavaScript.
+2. **For Dedicated PDF Applications:** Choose **[PDF.js](https://github.com/mozilla/pdf.js)** with **[react-pdf](https://github.com/wojtekmaj/react-pdf)** for custom UI control, or deploy **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** for an all-in-one web workstation.
+3. **For Enterprise Self-Hosted File Clusters:** Deploy **[kkFileView](https://github.com/kekingcn/kkFileView)** to convert complex Office documents and CAD formats into web-friendly representations on your own internal servers.
+4. **For Enterprise Regulated Workflows:** Evaluate **[PSPDFKit (Nutrient)](https://nutrient.io/)** or **[Foxit Web SDK](https://www.foxit.com/)** when bank-grade annotation, redaction, and certified compliance are required.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help expand and refine this ecosystem catalog:
+
+1. 🍴 **Fork** the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/add-new-previewer`).
+3. 📝 Add your tool in the corresponding section (SaaS or Open-Source) adhering to the tabular format and sorting criteria.
+4. 🔗 Ensure all links and star badges link directly to the correct repository / stargazers page.
+5. 🚀 Submit a **Pull Request** with a concise description of the library and its license.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Document-File-Previewer&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Document-File-Previewer&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated directory helpful for your development workflow, architecture decisions, or engineering projects, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to increase its visibility for fellow developers.
+- 🍴 **Fork and share** the repo across your dev communities, tech blogs, and social networks.
+- ☕ **Buy me a coffee & sponsor my work**: You can back future maintenance and open-source contributions directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is genuinely appreciated! ❤️
+
+---
+
+## ⚖️ Disclaimer & Licensing Guide
+
+- **Community-Curated**: This list is independently curated for educational and architectural evaluation purposes.
+- **Client vs. Server Security**: Client-side rendering keeps proprietary user files completely within browser sandboxes (e.g., Open File Viewer, docx-preview), whereas server-side conversion architectures (kkFileView, Box, PrizmDoc) require strict transport layer encryption (TLS) and ephemeral storage security policies.
+- **Licensing Considerations**:
+  - **Permissive (Apache-2.0 / MIT)**: *PDF.js, react-pdf, Viewer.js, docx-preview, kkFileView, Open File Viewer* — fully suitable for commercial and proprietary derivative integration without source code disclosure.
+  - **Copyleft (GPL-3.0 / AGPL-3.0)**: *Stirling-PDF, MuPDF* — AGPL/GPL requires source distribution if modifications are incorporated into network or distributed applications, or requires purchasing a commercial proprietary license (e.g., from Artifex).
+  - **Commercial Quote-Driven**: *Nutrient (PSPDFKit), Accusoft PrizmDoc, Foxit* — require commercial licenses and direct sales contracts for production distribution.
